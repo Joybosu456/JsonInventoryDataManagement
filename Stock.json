@@ -1,0 +1,48 @@
+{
+  "AllGroup": [
+    {
+      "Stockname": "DRREDY",
+      "Shares": "11",
+      "price": "3710"
+    },
+    {
+      "Stockname": "ITC",
+      "Shares": "3",
+      "price": "2024"
+    },
+    {
+      "Stockname": "TCS",
+      "Shares": "20",
+      "price": "2100"
+    }
+  ],
+  "TelecomGroup": [
+    {
+      "Stockname": "TECHM",
+      "Shares": "20",
+      "price": "856"
+    },
+    {
+      "Stockname": "BPCL",
+      "Shares": "80",
+      "price": "80"
+    },
+    {
+      "Stockname": "INDIAN OIL",
+      "Shares": "68",
+      "price": "560"
+    }
+  ],
+  "TechnoIndiaGroup": [
+    {
+      "Stockname": "AIR INDIA",
+      "Shares": "80",
+      "price": "2150"
+    },
+    {
+      "Stockname": "MATRIC",
+      "Shares": "35",
+      "price": "3000"
+    }
+  ]
+}
