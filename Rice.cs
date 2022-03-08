@@ -17,19 +17,19 @@ namespace InventoryDataManagement
     public class TypesOfRice
     {
         public string name;
-        public string weight;
+        public int weight;
         public int Price;
     }
     public class TypesOfWheat
     {
         public string name;
-        public string weight;
+        public int weight;
         public int Price;
     }
     public class TypesOfPulse
     {
         public string name;
-        public string weight;
+        public int weight;
         public int Price;
     }
 }
