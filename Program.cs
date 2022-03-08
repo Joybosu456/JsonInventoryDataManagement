@@ -4,6 +4,14 @@ namespace InventoryDataManagement
 {
     class Program
     {
+        /// <summary>
+    /// 
+    /// UC2
+    /// </summary>
+    /// <param name="args"></param>
+
+
+
         static void Main(string[] args)
         {
             Console.WriteLine("Hello inventory management system");
@@ -17,7 +25,9 @@ namespace InventoryDataManagement
                 Console.WriteLine(data.typesofRice[i].name);
                 Console.WriteLine(data.typesofRice[i].weight);
                 Console.WriteLine(data.typesofRice[i].Price);
-                Console.WriteLine("---------*--------**--------");
+                int dataofrice = data.typesofRice[i].weight * data.typesofRice[i].Price;
+                Console.WriteLine("Total Price: " + dataofrice);
+                Console.WriteLine("---------***--------******--------");
             }
 
             for (int i = 0; i < data.typesofPulse.Count; i++)
@@ -25,7 +35,9 @@ namespace InventoryDataManagement
                 Console.WriteLine(data.typesofPulse[i].name);
                 Console.WriteLine(data.typesofPulse[i].weight);
                 Console.WriteLine(data.typesofPulse[i].Price);
-                Console.WriteLine("---------*--------**--------");
+                int dataofpulse = data.typesofPulse[i].weight * data.typesofPulse[i].Price;
+                Console.WriteLine("Total Price: " + dataofpulse);
+                Console.WriteLine("---------***--------******--------");
 
             }
 
@@ -34,12 +46,16 @@ namespace InventoryDataManagement
                 Console.WriteLine(data.typesofWheat[i].name);
                 Console.WriteLine(data.typesofWheat[i].weight);
                 Console.WriteLine(data.typesofWheat[i].Price);
-                Console.WriteLine("---------*--------**--------");
+                int wheat = data.typesofWheat[0].weight * data.typesofWheat[i].Price;
+                Console.WriteLine("Total Price: " + wheat);
+                Console.WriteLine("---------***--------******--------");
 
             }
 
             //Console.WriteLine(data.name);
             //Console.WriteLine(data.);
+
+
 
 
 
